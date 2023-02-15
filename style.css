@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: none;
+}
+
+.page-wrap {
+    padding-top: 100px;
+    background-color: #d24d57;
+    background-size: cover;
+    color: whitesmoke;
+    overflow: none;
+    min-height: 89vh;
+}
+
+.page-wrap p {
+    font-weight: bold;
+}
+
+.btn a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.btn {
+    border-radius: 1px;
+    border-color: white;
+    flex-wrap: wrap;
+
+}
+#skill::after{
+background-color: green; 
+content: "";
+display: block;
+width: 100px;
+height: 3px;
+margin: 20px auto;
+}
